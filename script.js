@@ -30,8 +30,6 @@ function fetchUserData() {
     });
 }
 
-// Fetch on page load
 fetchUserData();
 
-// Reload button
 reloadBtn.addEventListener('click', fetchUserData);
